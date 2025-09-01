@@ -10,24 +10,18 @@
 header h1,
 .neon-title {
   text-align: center;
-  margin: 0 auto;
   display: block;
+  width: 100%;         /* biar full satu baris */
+  font-family: 'Poppins', sans-serif;
 }
 .header-top {
   display: flex;
-  justify-content: center; /* rata tengah horizontal */
-  align-items: center;     /* rata tengah vertical */
-  flex-direction: column;  /* susun ke bawah */
+  flex-direction: column;   /* tetap susun ke bawah */
+  align-items: center;      /* rata tengah horizontal */
+  justify-content: center;  /* rata tengah vertical */
+  padding: 10px;
 }
-body{
-  font-family:'Poppins',sans-serif;
-  background: url('images/background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color:#fff;
-  overflow-x:hidden;
-  scroll-behavior:smooth;
-  min-height:100vh;
-}
+
 body::before{
   content:"";
   position:fixed; top:0; left:0; width:100%; height:100%;
