@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Script Coin",
+    "price": 50000,
+    "image": "images/coin.jpg",
+    "description": "Top Up Coin Secara Gratis."
+  },
+  {
+    "id": 2,
+    "name": "Script Money",
+    "price": 20000,
+    "image": "images/money.jpg",
+    "description": "Top Up Money Secara Instant."
+  },
+  {
+    "id": 3,
+    "name": "Script Race",
+    "price": 40000,
+    "image": "images/race.jpg",
+    "description": "Kecepatan Super Dan Jadilah Pemenang Dalam Game Anda."
+  },
+  {
+    "id": 4,
+    "name": "Script Prank",
+    "price": 30000,
+    "image": "images/prank.jpg",
+    "description": "Prank Buat Hiburan Di Game Bersama Teman Anda."
+  },
+  {
+    "id": 5,
+    "name": "Script Liaran",
+    "price": 40000,
+    "image": "images/liaran.jpg",
+    "description": "Jadi Lah Pemenang Dalam Ajang Balap Liaran Dengan Kecepatan Maksimum."
+  },
+  {
+    "id": 6,
+    "name": "Script Achievement",
+    "price": 60000,
+    "image": "images/achievement.jpg",
+    "description": "Capai semua prestasi game."
+  },
+  {
+    "id": 7,
+    "name": "Script Request",
+    "price": 30000,
+    "image": "images/request.jpg",
+    "description": "Anda Bisa Request Sesuai Kebutuhan Anda, Harga Bisa Berubah Sewaktu-waktu."
+  }
+]
