@@ -47,5 +47,12 @@
     "price": 30000,
     "image": "images/request.jpg",
     "description": "Anda Bisa Request Sesuai Kebutuhan Anda, Harga Bisa Berubah Sewaktu-waktu."
+  },
+  { 
+    "id": 8,
+    "name": "Les Privat Script",
+    "price": 150000,
+    "image": "images/privat.jpg",
+    "description": "Belajar privat membuat script langsung dari ahlinya. Cocok untuk pemula maupun yang ingin meningkatkan skill."
   }
 ]
