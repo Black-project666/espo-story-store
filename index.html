@@ -240,7 +240,7 @@ button.custom-btn:hover{
       <a href="https://wa.me/6285198977002" target="_blank">WhatsApp</a>
       <a href="https://t.me/ESPO_STORY" target="_blank">Telegram</a>
       <a href="mailto:budimuhtiawan@gmail.com" target="_blank">Email</a>
-      <a href="https://wa.me/6285198977002?text=Halo admin, saya mau bayar" target="_blank">Payment</a>
+      <a href="https://t.me/ESPO_STORY" target="_blank">Payment</a>
       <div id="google_translate_element"></div>
       <div id="visitorCount" style="margin-top:10px; font-size:14px; color:#fff;">👤 0</div>
     </div>
@@ -278,7 +278,7 @@ fetch('counter.php')
         <div class="home-card"><h3>⚡ Cepat & Aman</h3><p>Script siap pakai, langsung bisa digunakan.</p></div>
         <div class="home-card"><h3>🆕 Update Terbaru</h3><p>Selalu update untuk game populer terbaru.</p></div>
         <div class="home-card"><h3>📩 Request Mudah</h3><p>Admin fast respon, bisa request script sesuai keinginan.</p></div>
-        <div class="home-card"><h3>💳 Pembayaran Mudah</h3><p>Langsung WA, aman dan cepat.</p></div>
+        <div class="home-card"><h3>💳 Pembayaran Mudah</h3><p>Langsung WA/Telegram, aman dan cepat.</p></div>
       </div>
       <div class="home-cards" style="margin-top:30px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));">
         <div class="home-card" style="background: rgba(255,102,0,0.3);">
@@ -314,7 +314,7 @@ fetch('counter.php')
 </div>
 
 <!-- WA FLOAT -->
-<a id="wa-float" href="https://wa.me/6285198977002" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA"></a>
+<a id="wa-float" href="https://t.me/ESPO_STORY" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"></a>
 
 <!-- ===== SCRIPT ===== -->
 <script>
@@ -325,7 +325,7 @@ function openTab(tabName,elm){
   elm.classList.add('active');
 }
 function beliProduk(nama){
-  window.open(`https://wa.me/6285198977002?text=Saya%20mau%20beli%20${encodeURIComponent(nama)}`,'_blank');
+  window.open(`https://t.me/ESPO_STORY`,'_blank');
 }
 document.getElementById('burger-menu').addEventListener('click',()=>{
   const menu = document.getElementById('burger-content');
@@ -357,9 +357,16 @@ fetch('product.json')
       `;
     });
     document.getElementById('productList').innerHTML = html;
-  })
-  .catch(err => console.log("Error load products:", err));
+  });
 </script>
+
+<!-- Google Translate -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage:'id'}, 'google_translate_element');
+}
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
